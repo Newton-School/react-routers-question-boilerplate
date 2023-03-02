@@ -6,7 +6,6 @@ import { BrowserRouter as Router,Link, Route, Switch, useLocation } from "react-
 import Home from "./Home";
 import Shapes from "./Shapes";
 import Image from "./Image";
-import Specificshape from "./Specificshape";
 
 
 
@@ -15,7 +14,7 @@ export default function App() {
     <div id="home">    
       <nav className="navbar navbar-light">
         <ul className="nav navbar-nav">
-          {/* Do not touch anything till here */}
+          
           <li>
             {/* home */}
           </li>
@@ -28,9 +27,8 @@ export default function App() {
         </ul>
       </nav>
       
-      {/* <Routes> */}
-        
-      {/* </Routes> */}
+      
+
     </div>
   );
 }

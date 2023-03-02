@@ -7,7 +7,7 @@ import { Link, useLocation } from 'react-router-dom'
     
     
   
-    // <Home />
+    
     return (
       <div id='shapesdiv'>
         
