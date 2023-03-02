@@ -34,8 +34,7 @@ import { Link, useLocation } from 'react-router-dom'
   }
   
   function Child({ shape,color }) {
-    console.log(shape);
-    console.log(color);
+
     if (shape === "circle"){
         return (
           <div id ="circle"class = "divcircle" style={{backgroundColor: color}}>
